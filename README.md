@@ -1,2 +1,2 @@
-# master
-Master
+# main
+Main
