@@ -68,7 +68,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(44, 68);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 20);
+            this.label1.Size = new System.Drawing.Size(54, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "Usuário";
             // 
@@ -77,7 +77,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(44, 112);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 20);
+            this.label2.Size = new System.Drawing.Size(46, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Senha";
             // 
@@ -89,6 +89,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "Cadastre-se";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
