@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Projeto
 {
@@ -20,6 +21,31 @@ namespace Projeto
         private void btnSair_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnGravar_Click(object sender, EventArgs e)
+        {
+           string connectionString = @"Data Source=DESKTOP-GKLCG8E\SQLEXPRESS;Initial Catalog=Sistema;User ID=Marcelo;Password=123456";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {           
+                using (SqlCommand command = new SqlCommand("dbo.InserirUsuario", connection))
+                {
+                    command.Parameters.AddWithValue("@CD_Usuario"   , txtCodUsuario.Text);
+                    command.Parameters.AddWithValue("@NM_Usuario"   , txtNomeUsuario.Text);
+                    command.Parameters.AddWithValue("@Email_Usuario", txtEmailUsuario.Text);
+                    command.Parameters.AddWithValue("@Senha_Usuario", txtSenhaUsuario.Text);
+                    command.Parameters.AddWithValue("@Idade_Usuario", txtIdadeUsuario.Text);
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                    connection.Close();
+                    MessageBox.Show("Cliente cadastrado com sucesso!");
+                    txtCodUsuario.Clear();
+                    txtNomeUsuario.Clear();
+                    txtEmailUsuario.Clear();
+                    txtSenhaUsuario.Clear();
+                    txtIdadeUsuario.Clear();
+                }
+            }
         }
     }
 }
