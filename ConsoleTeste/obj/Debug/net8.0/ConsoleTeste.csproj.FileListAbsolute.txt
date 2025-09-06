@@ -1,0 +1,14 @@
+C:\c#\ConsoleTeste\bin\Debug\net8.0\ConsoleTeste.exe
+C:\c#\ConsoleTeste\bin\Debug\net8.0\ConsoleTeste.deps.json
+C:\c#\ConsoleTeste\bin\Debug\net8.0\ConsoleTeste.runtimeconfig.json
+C:\c#\ConsoleTeste\bin\Debug\net8.0\ConsoleTeste.dll
+C:\c#\ConsoleTeste\bin\Debug\net8.0\ConsoleTeste.pdb
+C:\c#\ConsoleTeste\obj\Debug\net8.0\ConsoleTeste.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\ConsoleTeste\obj\Debug\net8.0\ConsoleTeste.AssemblyInfoInputs.cache
+C:\c#\ConsoleTeste\obj\Debug\net8.0\ConsoleTeste.AssemblyInfo.cs
+C:\c#\ConsoleTeste\obj\Debug\net8.0\ConsoleTeste.csproj.CoreCompileInputs.cache
+C:\c#\ConsoleTeste\obj\Debug\net8.0\ConsoleTeste.dll
+C:\c#\ConsoleTeste\obj\Debug\net8.0\refint\ConsoleTeste.dll
+C:\c#\ConsoleTeste\obj\Debug\net8.0\ConsoleTeste.pdb
+C:\c#\ConsoleTeste\obj\Debug\net8.0\ConsoleTeste.genruntimeconfig.cache
+C:\c#\ConsoleTeste\obj\Debug\net8.0\ref\ConsoleTeste.dll
