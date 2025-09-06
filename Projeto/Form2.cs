@@ -30,15 +30,17 @@ namespace Projeto
             {           
                 using (SqlCommand command = new SqlCommand("dbo.InserirUsuario", connection))
                 {
+                    command.CommandType = CommandType.StoredProcedure;
+
                     command.Parameters.AddWithValue("@CD_Usuario"   , txtCodUsuario.Text);
                     command.Parameters.AddWithValue("@NM_Usuario"   , txtNomeUsuario.Text);
                     command.Parameters.AddWithValue("@Email_Usuario", txtEmailUsuario.Text);
                     command.Parameters.AddWithValue("@Senha_Usuario", txtSenhaUsuario.Text);
-                    command.Parameters.AddWithValue("@Idade_Usuario", txtIdadeUsuario.Text);
+                    command.Parameters.AddWithValue("@Idade_Usuario", int.Parse(txtIdadeUsuario.Text));
                     connection.Open();
                     command.ExecuteNonQuery();
                     connection.Close();
-                    MessageBox.Show("Cliente cadastrado com sucesso!");
+                    MessageBox.Show("Usuário cadastrado com sucesso!");
                     txtCodUsuario.Clear();
                     txtNomeUsuario.Clear();
                     txtEmailUsuario.Clear();
