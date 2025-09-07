@@ -28,7 +28,7 @@ namespace Projeto
            string connectionString = @"Data Source=DESKTOP-GKLCG8E\SQLEXPRESS;Initial Catalog=Sistema;User ID=Marcelo;Password=123456";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {           
-                using (SqlCommand command = new SqlCommand("dbo.InserirUsuario", connection))
+                using (SqlCommand command = new SqlCommand("dbo.Inserir_Usuario", connection))
                 {
                     command.CommandType = CommandType.StoredProcedure;
 
@@ -36,16 +36,43 @@ namespace Projeto
                     command.Parameters.AddWithValue("@NM_Usuario"   , txtNomeUsuario.Text);
                     command.Parameters.AddWithValue("@Email_Usuario", txtEmailUsuario.Text);
                     command.Parameters.AddWithValue("@Senha_Usuario", txtSenhaUsuario.Text);
-                    command.Parameters.AddWithValue("@Idade_Usuario", int.Parse(txtIdadeUsuario.Text));
+
+                    // --- Idade: TryParse e envia DBNull se vazio/inválido ---
+                    int idade;
+                    if (int.TryParse(txtIdadeUsuario.Text, out idade))
+                    {
+                        command.Parameters.AddWithValue("@Idade_Usuario", idade);
+                    }
+                    else
+                    {
+                        // envia NULL para o banco (procedure deve aceitar NULL)
+                        command.Parameters.AddWithValue("@Idade_Usuario", DBNull.Value);
+                    }
+
+                    // parâmetro de saída
+                    SqlParameter mensagemParam = new SqlParameter("@Mensagem_Erro", SqlDbType.VarChar, 255);
+                    mensagemParam.Direction = ParameterDirection.Output;
+                    command.Parameters.Add(mensagemParam);
+
                     connection.Open();
                     command.ExecuteNonQuery();
                     connection.Close();
-                    MessageBox.Show("Usuário cadastrado com sucesso!");
-                    txtCodUsuario.Clear();
-                    txtNomeUsuario.Clear();
-                    txtEmailUsuario.Clear();
-                    txtSenhaUsuario.Clear();
-                    txtIdadeUsuario.Clear();
+
+                    string mensagem = mensagemParam.Value?.ToString();
+
+                    if (!string.IsNullOrEmpty(mensagem)) // Se veio uma mensagem de erro mostra pro usuário
+                    {
+                       MessageBox.Show(mensagem, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                       MessageBox.Show("Usuário cadastrado com sucesso!");
+                       txtCodUsuario.Clear();
+                       txtNomeUsuario.Clear();
+                       txtEmailUsuario.Clear();
+                       txtSenhaUsuario.Clear();
+                       txtIdadeUsuario.Clear();
+                    }
                 }
             }
         }
