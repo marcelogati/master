@@ -2,11 +2,11 @@ C:\c#\Projeto\bin\Debug\Projeto.exe.config
 C:\c#\Projeto\bin\Debug\Projeto.exe
 C:\c#\Projeto\bin\Debug\Projeto.pdb
 C:\c#\Projeto\obj\Debug\Projeto.csproj.AssemblyReference.cache
-C:\c#\Projeto\obj\Debug\Projeto.Form1.resources
-C:\c#\Projeto\obj\Debug\Projeto.Form2.resources
 C:\c#\Projeto\obj\Debug\Projeto.Properties.Resources.resources
 C:\c#\Projeto\obj\Debug\Projeto.csproj.GenerateResource.cache
 C:\c#\Projeto\obj\Debug\Projeto.csproj.CoreCompileInputs.cache
 C:\c#\Projeto\obj\Debug\Projeto.exe
 C:\c#\Projeto\obj\Debug\Projeto.pdb
 C:\c#\Projeto\obj\Debug\Projeto.exe.config
+C:\c#\Projeto\obj\Debug\Projeto.frmLogin.resources
+C:\c#\Projeto\obj\Debug\Projeto.frmCadastroUsuario.resources

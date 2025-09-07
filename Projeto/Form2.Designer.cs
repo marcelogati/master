@@ -1,6 +1,6 @@
 ﻿namespace Projeto
 {
-    partial class Form2
+    partial class frmCadastroUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -40,6 +40,7 @@
             this.lblIdade = new System.Windows.Forms.Label();
             this.txtCodUsuario = new System.Windows.Forms.TextBox();
             this.lblCodUsuario = new System.Windows.Forms.Label();
+            this.btnMostrarSenha = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblNomeUsuario
@@ -74,28 +75,29 @@
             this.txtNomeUsuario.Location = new System.Drawing.Point(160, 37);
             this.txtNomeUsuario.Name = "txtNomeUsuario";
             this.txtNomeUsuario.Size = new System.Drawing.Size(215, 22);
-            this.txtNomeUsuario.TabIndex = 3;
+            this.txtNomeUsuario.TabIndex = 1;
             // 
             // txtEmailUsuario
             // 
             this.txtEmailUsuario.Location = new System.Drawing.Point(160, 65);
             this.txtEmailUsuario.Name = "txtEmailUsuario";
             this.txtEmailUsuario.Size = new System.Drawing.Size(215, 22);
-            this.txtEmailUsuario.TabIndex = 4;
+            this.txtEmailUsuario.TabIndex = 2;
             // 
             // txtSenhaUsuario
             // 
             this.txtSenhaUsuario.Location = new System.Drawing.Point(160, 91);
             this.txtSenhaUsuario.Name = "txtSenhaUsuario";
             this.txtSenhaUsuario.Size = new System.Drawing.Size(215, 22);
-            this.txtSenhaUsuario.TabIndex = 5;
+            this.txtSenhaUsuario.TabIndex = 3;
+            this.txtSenhaUsuario.UseSystemPasswordChar = true;
             // 
             // btnGravar
             // 
             this.btnGravar.Location = new System.Drawing.Point(160, 168);
             this.btnGravar.Name = "btnGravar";
             this.btnGravar.Size = new System.Drawing.Size(75, 23);
-            this.btnGravar.TabIndex = 6;
+            this.btnGravar.TabIndex = 5;
             this.btnGravar.Text = "Gravar";
             this.btnGravar.UseVisualStyleBackColor = true;
             this.btnGravar.Click += new System.EventHandler(this.btnGravar_Click);
@@ -105,7 +107,7 @@
             this.btnSair.Location = new System.Drawing.Point(260, 168);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(78, 23);
-            this.btnSair.TabIndex = 7;
+            this.btnSair.TabIndex = 6;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
@@ -115,7 +117,7 @@
             this.txtIdadeUsuario.Location = new System.Drawing.Point(160, 121);
             this.txtIdadeUsuario.Name = "txtIdadeUsuario";
             this.txtIdadeUsuario.Size = new System.Drawing.Size(215, 22);
-            this.txtIdadeUsuario.TabIndex = 9;
+            this.txtIdadeUsuario.TabIndex = 4;
             // 
             // lblIdade
             // 
@@ -131,7 +133,7 @@
             this.txtCodUsuario.Location = new System.Drawing.Point(160, 9);
             this.txtCodUsuario.Name = "txtCodUsuario";
             this.txtCodUsuario.Size = new System.Drawing.Size(215, 22);
-            this.txtCodUsuario.TabIndex = 11;
+            this.txtCodUsuario.TabIndex = 0;
             // 
             // lblCodUsuario
             // 
@@ -142,10 +144,21 @@
             this.lblCodUsuario.TabIndex = 10;
             this.lblCodUsuario.Text = "Cod. Usuario";
             // 
-            // Form2
+            // btnMostrarSenha
+            // 
+            this.btnMostrarSenha.Location = new System.Drawing.Point(381, 91);
+            this.btnMostrarSenha.Name = "btnMostrarSenha";
+            this.btnMostrarSenha.Size = new System.Drawing.Size(23, 22);
+            this.btnMostrarSenha.TabIndex = 11;
+            this.btnMostrarSenha.Text = "button1";
+            this.btnMostrarSenha.UseVisualStyleBackColor = true;
+            this.btnMostrarSenha.Click += new System.EventHandler(this.btnMostrarSenha_Click);
+            // 
+            // frmCadastroUsuario
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(398, 198);
+            this.ClientSize = new System.Drawing.Size(416, 199);
+            this.Controls.Add(this.btnMostrarSenha);
             this.Controls.Add(this.txtCodUsuario);
             this.Controls.Add(this.lblCodUsuario);
             this.Controls.Add(this.txtIdadeUsuario);
@@ -161,7 +174,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form2";
+            this.Name = "frmCadastroUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Usuário";
             this.ResumeLayout(false);
@@ -183,5 +196,6 @@
         private System.Windows.Forms.Label lblIdade;
         private System.Windows.Forms.TextBox txtCodUsuario;
         private System.Windows.Forms.Label lblCodUsuario;
+        private System.Windows.Forms.Button btnMostrarSenha;
     }
 }

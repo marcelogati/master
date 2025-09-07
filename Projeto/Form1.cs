@@ -10,17 +10,34 @@ using System.Windows.Forms;
 
 namespace Projeto
 {
-    public partial class Form1 : Form
+    public partial class frmLogin : Form
     {
-        public Form1()
+        public frmLogin()
         {
             InitializeComponent();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-          Form2 form2 = new Form2();
+          frmCadastroUsuario form2 = new frmCadastroUsuario();
             form2.ShowDialog();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+          this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+          if (txtSenha.UseSystemPasswordChar == false)
+          {
+                txtSenha.UseSystemPasswordChar = true;
+          }
+          else
+          {
+                txtSenha.UseSystemPasswordChar = false;
+          }
         }
     }
 }

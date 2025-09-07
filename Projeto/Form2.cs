@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace Projeto
 {
-    public partial class Form2 : Form
+    public partial class frmCadastroUsuario : Form
     {
-        public Form2()
+        public frmCadastroUsuario()
         {
             InitializeComponent();
         }
@@ -47,6 +47,18 @@ namespace Projeto
                     txtSenhaUsuario.Clear();
                     txtIdadeUsuario.Clear();
                 }
+            }
+        }
+
+        private void btnMostrarSenha_Click(object sender, EventArgs e)
+        {
+          if (txtSenhaUsuario.UseSystemPasswordChar == false)
+            {
+                txtSenhaUsuario.UseSystemPasswordChar = true;
+            }
+            else
+            {
+                txtSenhaUsuario.UseSystemPasswordChar = false;
             }
         }
     }
