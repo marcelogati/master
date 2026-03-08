@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\c#\\Projeto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|c:\\c#\\projeto\\cadastrousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|C:\\c#\\Projeto\\cadastrousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|solutionrelative:cadastrousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|c:\\c#\\projeto\\cadastrousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|solutionrelative:cadastrousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|c:\\c#\\projeto\\cadastroclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|solutionrelative:cadastroclientes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|c:\\c#\\projeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|C:\\c#\\Projeto\\cadastrousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|solutionrelative:cadastrousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|C:\\c#\\Projeto\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|C:\\c#\\Projeto\\menulogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|solutionrelative:menulogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|C:\\c#\\Projeto\\menulogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E56D5DB2-5AF8-4DA9-A54C-253E08F6ECAA}|Projeto.csproj|solutionrelative:menulogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,30 +30,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\c#\\Projeto\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\c#\\Projeto\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwBYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T21:24:52.243Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CadastroClientes.cs [Design]",
               "DocumentMoniker": "C:\\c#\\Projeto\\CadastroClientes.cs",
               "RelativeDocumentMoniker": "CadastroClientes.cs",
-              "ToolTip": "C:\\c#\\Projeto\\CadastroClientes.cs [Design]*",
-              "RelativeToolTip": "CadastroClientes.cs [Design]*",
+              "ToolTip": "C:\\c#\\Projeto\\CadastroClientes.cs [Design]",
+              "RelativeToolTip": "CadastroClientes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T21:46:33.067Z",
               "EditorCaption": " [Design]"
@@ -66,14 +52,14 @@
               "RelativeDocumentMoniker": "CadastroUsuarios.cs",
               "ToolTip": "C:\\c#\\Projeto\\CadastroUsuarios.cs",
               "RelativeToolTip": "CadastroUsuarios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwDEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-24T21:37:15.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CadastroUsuarios.cs [Design]",
               "DocumentMoniker": "C:\\c#\\Projeto\\CadastroUsuarios.cs",
               "RelativeDocumentMoniker": "CadastroUsuarios.cs",
@@ -85,15 +71,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\c#\\Projeto\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\c#\\Projeto\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "MenuLogin.cs [Design]",
+              "DocumentMoniker": "C:\\c#\\Projeto\\MenuLogin.cs",
+              "RelativeDocumentMoniker": "MenuLogin.cs",
+              "ToolTip": "C:\\c#\\Projeto\\MenuLogin.cs [Design]",
+              "RelativeToolTip": "MenuLogin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T12:43:03.925Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-06T12:43:03.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuLogin.cs",
+              "DocumentMoniker": "C:\\c#\\Projeto\\MenuLogin.cs",
+              "RelativeDocumentMoniker": "MenuLogin.cs",
+              "ToolTip": "C:\\c#\\Projeto\\MenuLogin.cs",
+              "RelativeToolTip": "MenuLogin.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwAwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T21:24:52.243Z"
             }
           ]
         }
