@@ -1,0 +1,103 @@
+[
+  {
+    "ContainingType": "CategoriaController",
+    "Method": "InserirCategoria",
+    "RelativePath": "api/Categoria",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProjetoGerenciamento.Model.Categoria",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoGerenciamento.Controllers.DeletarPessoaController",
+    "Method": "DeletarPessoa",
+    "RelativePath": "api/DeletarPessoa/deletar",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProjetoGerenciamento.Model.DeletarPessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoGerenciamento.Controllers.ListagemController",
+    "Method": "ListagemPessoa",
+    "RelativePath": "api/Listagem/listagem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dataInicial",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "dataFinal",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PessoaController",
+    "Method": "InserirPessoa",
+    "RelativePath": "api/Pessoa",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProjetoGerenciamento.Model.Pessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProjetoGerenciamento.Controllers.PessoaController",
+    "Method": "EditarPessoa",
+    "RelativePath": "api/Pessoa/editar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProjetoGerenciamento.Model.EditarPessoa",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransacaoController",
+    "Method": "InserirTransacao",
+    "RelativePath": "api/Transacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProjetoGerenciamento.Model.Transacao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

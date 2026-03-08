@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|c:\\c#\\gerenciamento\\projetogerenciamento\\controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|solutionrelative:controllers\\pessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|c:\\c#\\gerenciamento\\projetogerenciamento\\controllers\\inserirtransacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|solutionrelative:controllers\\inserirtransacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|c:\\c#\\gerenciamento\\projetogerenciamento\\controllers\\listagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|solutionrelative:controllers\\listagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|c:\\c#\\gerenciamento\\projetogerenciamento\\controllers\\inserircategcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|solutionrelative:controllers\\inserircategcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|c:\\c#\\gerenciamento\\projetogerenciamento\\controllers\\editarpessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|solutionrelative:controllers\\editarpessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|c:\\c#\\gerenciamento\\projetogerenciamento\\controllers\\deletarpessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|solutionrelative:controllers\\deletarpessoacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|c:\\c#\\gerenciamento\\projetogerenciamento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7361D99E-CCA0-424E-BB8E-FF258B1362F6}|ProjetoGerenciamento.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PessoaController.cs",
+              "DocumentMoniker": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\PessoaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PessoaController.cs",
+              "ToolTip": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\PessoaController.cs",
+              "RelativeToolTip": "Controllers\\PessoaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T18:42:52.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListagemController.cs",
+              "DocumentMoniker": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\ListagemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ListagemController.cs",
+              "ToolTip": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\ListagemController.cs",
+              "RelativeToolTip": "Controllers\\ListagemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T18:42:26.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InserirTransacaoController.cs",
+              "DocumentMoniker": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\InserirTransacaoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InserirTransacaoController.cs",
+              "ToolTip": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\InserirTransacaoController.cs",
+              "RelativeToolTip": "Controllers\\InserirTransacaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T18:42:24.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InserirCategController.cs",
+              "DocumentMoniker": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\InserirCategController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InserirCategController.cs",
+              "ToolTip": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\InserirCategController.cs",
+              "RelativeToolTip": "Controllers\\InserirCategController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T18:42:08.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditarPessoaController.cs",
+              "DocumentMoniker": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\EditarPessoaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EditarPessoaController.cs",
+              "ToolTip": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\EditarPessoaController.cs",
+              "RelativeToolTip": "Controllers\\EditarPessoaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T18:42:00.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DeletarPessoaController.cs",
+              "DocumentMoniker": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\DeletarPessoaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DeletarPessoaController.cs",
+              "ToolTip": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Controllers\\DeletarPessoaController.cs",
+              "RelativeToolTip": "Controllers\\DeletarPessoaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T18:41:45.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\c#\\Gerenciamento\\ProjetoGerenciamento\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T18:40:45.581Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
